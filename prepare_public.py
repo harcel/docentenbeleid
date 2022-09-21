@@ -8,4 +8,4 @@ df = preprocess(df_raw)
 
 df = hash_nr(df, "persnr")
 
-df.to_excel("../data/Docenten_2020-2022_hashed.xlsx")
+df.to_csv("data/Docenten_2020-2022_hashed.csv")
