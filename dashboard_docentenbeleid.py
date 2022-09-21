@@ -22,12 +22,12 @@ app = Dash(
     suppress_callback_exceptions=True,
     external_stylesheets=[dbc.themes.BOOTSTRAP],
 )
-
+server = app.server()
 
 # Data stuff first, app stuff below.
 # assume you have a "long-form" data frame
 # Data is read in after preprocessing and hashing.
-df = pd.read_excel("../data/Docenten_2020-2022_hashed.xlsx")
+df = pd.read_excel("data/Docenten_2020-2022_hashed.xlsx")
 
 # Mapping voor promoties
 prom_map = {
