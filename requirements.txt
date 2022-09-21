@@ -2,6 +2,7 @@ Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_16488836
 click @ file:///home/conda/feedstock_root/build_artifacts/click_1651215151197/work
 dash @ file:///home/conda/feedstock_root/build_artifacts/dash_1659522645912/work
 dash-bootstrap-components @ file:///home/conda/feedstock_root/build_artifacts/dash-bootstrap-components_1659298603251/work
+dash-daq @ file:///home/conda/feedstock_root/build_artifacts/dash-daq_1596869611219/work
 Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1660054669620/work
 Flask-Compress @ file:///home/conda/feedstock_root/build_artifacts/flask-compress_1661960162239/work
 importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1653252803161/work
