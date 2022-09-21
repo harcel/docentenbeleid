@@ -1,20 +1,20 @@
-Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1648883617327/work
-click @ file:///home/conda/feedstock_root/build_artifacts/click_1651215151197/work
-dash @ file:///home/conda/feedstock_root/build_artifacts/dash_1659522645912/work
-dash-bootstrap-components @ file:///home/conda/feedstock_root/build_artifacts/dash-bootstrap-components_1659298603251/work
-dash-daq @ file:///home/conda/feedstock_root/build_artifacts/dash-daq_1596869611219/work
-Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1660054669620/work
-Flask-Compress @ file:///home/conda/feedstock_root/build_artifacts/flask-compress_1661960162239/work
-importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1653252803161/work
-itsdangerous @ file:///home/conda/feedstock_root/build_artifacts/itsdangerous_1648147185463/work
-Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1654302431367/work
-MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1648737547956/work
-numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1662888869821/work
+brotli-python==1.0.9
+click==8.1.3
+dash==2.6.1
+dash-bootstrap-components==1.2.1
+dash-daq==0.5.0
+flask==2.2.2
+flask-compress=1.12
+importlib-metadata==4.11.4
+itsdangerous==2.1.2
+jinja2=3.1.2
+markupsafe==2.1.1
+numpy=1.23.3
 pandas==1.5.0
-plotly @ file:///home/conda/feedstock_root/build_artifacts/plotly_1660480772389/work
-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
-pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1660580468234/work
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
-tenacity @ file:///home/conda/feedstock_root/build_artifacts/tenacity_1626090218611/work
-Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1660053523487/work
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1659400682470/work
+plotly==5.10.0
+python-dateutil==2.8.2
+pytz==2022.2.1
+six==1.16.0
+tenacity==8.0.1
+werkzeug==2.2.2
+zipp==3.8.1
