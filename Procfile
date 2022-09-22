@@ -1,2 +1,2 @@
-web: gunicorn dashboard_docentenbeleid:app
+web: gunicorn dashboard_docentenbeleid:server
 
