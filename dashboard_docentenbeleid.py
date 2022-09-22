@@ -21,7 +21,7 @@ app = Dash(
     suppress_callback_exceptions=True,
     external_stylesheets=[dbc.themes.BOOTSTRAP],
 )
-# server = app.server()
+server = app.server
 
 # Data stuff first, app stuff below.
 # assume you have a "long-form" data frame
