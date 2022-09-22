@@ -44,7 +44,7 @@ def filterdatum(plot_df, jaren):
 
 
 # set some parameters
-navbar_height = "8rem"
+navbar_height = "6rem"
 sidebar_width = "24rem"
 
 
@@ -69,6 +69,7 @@ SIDEBAR_STYLE = {
     "width": sidebar_width,
     "background-color": "#f8f9fa",
     "padding": "4rem 1rem 2rem",
+    "overflow": "scroll"
 }
 
 # the styles for the main content position it to the right of the sidebar and
@@ -205,7 +206,7 @@ NAVBAR = dbc.Navbar(
 
 
 # HERE WE BUILT THE APP LAYOUT
-app.layout = html.Div([sidebar, content, NAVBAR])  #
+app.layout = html.Div([content, sidebar, NAVBAR])  #
 
 
 # any change to the input Fuel will call the update_figure function and return a figure with updated data
