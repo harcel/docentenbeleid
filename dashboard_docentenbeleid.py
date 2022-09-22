@@ -65,7 +65,7 @@ SIDEBAR_STYLE = {
     "position": "fixed",
     "top": navbar_height,
     "left": 0,
-    "bottom": 0,
+    # "bottom": 0,
     "width": sidebar_width,
     "background-color": "#f8f9fa",
     "padding": "4rem 1rem 2rem",
