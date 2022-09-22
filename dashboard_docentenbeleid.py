@@ -21,7 +21,7 @@ app = Dash(
     suppress_callback_exceptions=True,
     external_stylesheets=[dbc.themes.BOOTSTRAP],
 )
-# server = app.server
+server = app.server
 
 # Data stuff first, app stuff below.
 # assume you have a "long-form" data frame
@@ -65,7 +65,7 @@ SIDEBAR_STYLE = {
     "position": "fixed",
     "top": navbar_height,
     "left": 0,
-    # "bottom": 0,
+    "bottom": 0,
     "width": sidebar_width,
     "background-color": "#f8f9fa",
     "padding": "4rem 1rem 2rem",
