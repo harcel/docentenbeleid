@@ -21,7 +21,7 @@ app = Dash(
     suppress_callback_exceptions=True,
     external_stylesheets=[dbc.themes.BOOTSTRAP],
 )
-server = app.server
+# server = app.server
 
 # Data stuff first, app stuff below.
 # assume you have a "long-form" data frame
@@ -118,15 +118,15 @@ sidebar = html.Div(
         html.Div(
             "De groep docenten waar het om gaat, zowel als de jaren die je wilt zien kies je hierboven."
         ),
-        html.Div("De data is up-to-date t/m augustus 2022."),
+        html.Div("De data is up-to-date t/m aug. '22."),
         html.Div(
-            "De bovenste panels gaan over de aard van het dienstverband en laten het percentage vaste dienstverbanden zien (links; met de switch kies je of je dit op basis van head count of FTE wil zien) en de omzetting van tijdelijk naar vast binnen de gekozen populatie (rechts)."
+            "De bovenste panels tonen het percentage vaste dienstverbanden (links; met de switch kies je tussen head count en FTE) en de omzetting van tijdelijk naar vast (rechts)."
         ),
         html.Div(
-            "De middelste panels gaan over omzettingen van een docentniveau naar het niveau erboven. Het linker panel is statisch, het rechter laat omzettingen zien van de gekozen populatie naar de populatie een niveau hoger."
+            "De middelste panels tonen verhoudingen tussen en omzettingen van docentniveaus. Het linker panel is statisch, het rechter toont omzettingen van de gekozen populatie naar één niveau hoger."
         ),
         html.Div(
-            "Het onderste panel laat de omvang van dienstverbanden zien in een boxplot. De balkjes geven aan waar de bulk van de docenten zit en het horizontale streepje daarin is de mediaan. Een vergroting van de contractomvang bij veel docenten uit zich dus als een verschuiving van de balkjes en horizontale lijntjes omhoog."
+            "Het onderste panel laat de omvang van dienstverbanden zien in een boxplot. De balkjes geven aan waar de bulk van de docenten zit en het horizontale streepje is de mediaan. Vergrotingen van contractomvang bij veel docenten uiten zich als een verschuiving van de balkjes en mediaan omhoog."
         ),
     ],
     style=SIDEBAR_STYLE,
