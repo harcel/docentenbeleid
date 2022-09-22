@@ -191,7 +191,7 @@ NAVBAR = dbc.Navbar(
                     width=3,
                 ),
                 dbc.Col(
-                    html.H2("Advanced Analytics", style={"color": "#f8f9fa"}),
+                    html.H2("Bestuurlijke Informatie", style={"color": "#f8f9fa"}),
                     align="center",
                     width=8,
                 ),
