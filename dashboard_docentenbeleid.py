@@ -119,13 +119,14 @@ sidebar = html.Div(
         html.Div(
             "De groep docenten waar het om gaat, zowel als de jaren die je wilt zien kies je hierboven."
         ),
-        html.Div("De data is up-to-date t/m aug. '22."),
+        html.Div("De data is up-to-date t/m sept. '22."),
         html.Div(
-            "De bovenste panels tonen het percentage vaste dienstverbanden (links; met de switch kies je tussen head count en FTE) en de omzetting van tijdelijk naar vast (rechts)."
+            "De bovenste panels tonen verhoudingen tussen en omzettingen van docentniveaus. Het rechter panel is statisch, het linker toont omzettingen van de gekozen populatie naar één niveau hoger."
         ),
         html.Div(
-            "De middelste panels tonen verhoudingen tussen en omzettingen van docentniveaus. Het linker panel is statisch, het rechter toont omzettingen van de gekozen populatie naar één niveau hoger."
+            "De middelste panels tonen het percentage vaste dienstverbanden (links; met de switch kies je tussen head count en FTE) en de omzetting van tijdelijk naar vast (rechts)."
         ),
+
         html.Div(
             "Het onderste panel laat de omvang van dienstverbanden zien in een boxplot. De balkjes geven aan waar de bulk van de docenten zit en het horizontale streepje is de mediaan. Vergrotingen van contractomvang bij veel docenten uiten zich als een verschuiving van de balkjes en mediaan omhoog."
         ),
@@ -138,6 +139,13 @@ content = html.Div(
     [
         dbc.Row(
             [
+                dbc.Col(html.Div(dcc.Graph(id="graph_alle_docenten")), width=6),
+                dbc.Col(html.Div(dcc.Graph(id="graph_promotie")), width=6),
+            ]
+        ),
+        html.Hr(),
+        dbc.Row(
+            [
                 dbc.Col(
                     [
                         html.Div(dcc.Graph(id="graph_vast")),
@@ -146,13 +154,6 @@ content = html.Div(
                     width=6,
                 ),
                 dbc.Col(html.Div(dcc.Graph(id="graph_tijdelijkvast")), width=6),
-            ]
-        ),
-        html.Hr(),
-        dbc.Row(
-            [
-                dbc.Col(html.Div(dcc.Graph(id="graph_alle_docenten")), width=6),
-                dbc.Col(html.Div(dcc.Graph(id="graph_promotie")), width=6),
             ]
         ),
         html.Hr(),
