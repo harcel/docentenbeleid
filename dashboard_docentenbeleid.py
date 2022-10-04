@@ -139,8 +139,8 @@ content = html.Div(
     [
         dbc.Row(
             [
-                dbc.Col(html.Div(dcc.Graph(id="graph_alle_docenten")), width=6),
                 dbc.Col(html.Div(dcc.Graph(id="graph_promotie")), width=6),
+                dbc.Col(html.Div(dcc.Graph(id="graph_alle_docenten")), width=6),
             ]
         ),
         html.Hr(),
