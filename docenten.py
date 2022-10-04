@@ -605,7 +605,7 @@ def plot_fte_dist(df_sorted, functie="Docent 4"):
         facet_col="Dienstverband",
         labels={"Dienstverband=": "Dienstverband: ", "Organisatie": "", "Datum": ""},
     )
-    fig.update_layout(title=f"Aantal FTE per persoon, {functie}")
+    fig.update_layout(title=f"Omvang FTE per persoon, {functie}")
     fig.update_layout(
         xaxis=dict(
             type="category",
@@ -613,7 +613,7 @@ def plot_fte_dist(df_sorted, functie="Docent 4"):
             categoryarray=np.sort(np.unique(df_sorted["Datum"])),
             title=None,
         ),
-        yaxis=dict(title="FTE per persoon"),
+        yaxis=dict(title="Omvang FTE per persoon"),
         # autosize=True,
     )
 
