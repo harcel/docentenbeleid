@@ -1,9 +1,9 @@
 import pandas as pd
 from docenten import hash_nr, preprocess
 
-datapath = "/home/marcel/projects_local/Laura/Docentenbeleid/Data/"
+datapath = "/home/marcel/work/Laura/Docentenbeleid/Data/"
 
-df_raw = pd.read_excel(datapath + "Docenten_2020-2022_221004.xlsx")
+df_raw = pd.read_excel(datapath + "Docenten_2020-2022_20221107.xlsx")
 df = preprocess(df_raw)
 
 df = hash_nr(df, "persnr")
